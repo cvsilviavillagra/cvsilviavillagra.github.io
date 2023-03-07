@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<script src="myScript.js">
+   
+</script>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+   <h1 id= "inicio">Curriculum Vittae on line</h2>
+
+   <h2>Nombre: <strong>Sandra Noemí Barrios</strong></h2>
+   <img src="/cvOnline/imagenes/fotoParaCV.jpg" alt="Foto Postulante"/>
+   
+   <div class= "flex-container">
+      <ul> 
+         <li><a class="active "  href="#datos">Datos Personales</a></li>
+         <li><a href="#conocimientos">Conocimientos</a></li>
+         <li><a href="#experiencis">Experiencias</a></li>
+         <li><a href="#contactarse">Contactarse</a></li>
+      </ul>
+
+   </div>
+
+   </br> </br> </br> </br> </br> </br></br> </br> </br> </br> </br> </br>
+   
+   
+      <h2 id = "datos"> Datos personales</h2>
+      <div class="recuadro">
+         <p> Dirección: <span> Av. Independencia 123 </span></p>
+         <p> Teléfono: <span>297-4586213</span></p>
+         <p> Localidad: <span>Las Heras</span></p>
+         <p> Provincia: <span>Santa Cruz</span></p>
+         <a href="#inicio">Volver Arriba</a>
+         
+      </div>
+      
+  </br> </br> </br> </br> </br> </br></br> </br> </br> </br> </br> </br></br></br>
+      </br>
+      </br>
+      </br>
+      </br>
+
+  <div class="container" id= "contactarse">
+  <form action="/action_page.php">
+   <h2> Complete este formulario para contactarme</h2>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nombre:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Apellido:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Consulta:</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Escribe tu consulta.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Enviar">
+   <a href="#inicio">Volver Arriba</a>
+  </div>
+  </form>
+</div>
+
+
+
+</body>
+
+</html>

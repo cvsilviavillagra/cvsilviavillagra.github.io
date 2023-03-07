@@ -1,0 +1,7 @@
+function MyFucntion(){
+
+<form action="/action_page.php" method="post">
+  <input type="text" name="fname" required>
+  <input type="submit" value="Submit">
+</form>
+}
